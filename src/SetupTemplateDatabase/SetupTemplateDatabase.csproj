@@ -11,8 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="Scripts\0001 - hello_world.sql" />
-    <EmbeddedResource Include="Scripts\0001 - hello_world.sql" />
+    <EmbeddedResource Include="Scripts\0001 - initial setup.sql" />
   </ItemGroup>
 
 </Project>
