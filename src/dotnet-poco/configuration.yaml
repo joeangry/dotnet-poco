@@ -1,0 +1,22 @@
+---
+ConnectionString: Server=.;Database=poco-template;Integrated Security=False;User Id=sa;Password=SpikePrototype2016!;MultipleActiveResultSets=true
+Namespace: MyFirstApplication
+DbContextName: MyFirstDbContext
+DbContextBaseClass: DbContext
+UseDataAnnotations: false
+WriteSeparateFiles: true
+FolderForSchemaName: true
+OutputPath: "./"
+AdditionalUsings:
+  - System.Data
+InterfacesOnContext: []
+InterfacesOnModels: []
+IgnoredTables:
+  - SchemaVersions
+  - DataChangeLog
+IgnoredColumns:
+  Email: RowVersion
+  EmailAttachment: RowVersion
+  FileMetadata: RowVersion
+  Organisation: RowVersion
+  User: RowVersion

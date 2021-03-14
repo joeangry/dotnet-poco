@@ -1,0 +1,29 @@
+﻿{
+  "ConnectionString": "Server=.;Database=WideWorldImporters;Integrated Security=False;User Id=sa;Password=SpikePrototype2016!;MultipleActiveResultSets=true",
+  "Namespace": "MyFirstApplication",
+  "DbContextName": "MyFirstDbContext",
+  "DbContextOutputPath": "E:\\Git\\dotnet-poco\\src\\output\\context",
+  "DbContextBaseClass": "DbContext",
+  "UseDataAnnotations": false,
+  "WriteSeparateFiles": true,
+  "PocoOutputPath": "E:\\Git\\dotnet-poco\\src\\output\\models",
+  "FolderForSchemaName": true,
+  "AdditionalUsings": [
+    "System.Data"
+  ],
+  "InterfacesOnContext": [
+  ],
+  "InterfacesOnModels": [    
+  ],
+  "IgnoredTables": [
+      "SchemaVersions",
+      "DataChangeLog"
+  ],
+  "IgnoredColumns": {
+      "Email": "RowVersion",
+      "EmailAttachment": "RowVersion",
+      "FileMetadata": "RowVersion",
+      "Organisation": "RowVersion",
+      "User": "RowVersion"
+  }
+}
